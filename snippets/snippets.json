@@ -1,12 +1,40 @@
 {
+    "mip-carousel": {
+        "prefix": "mip-carousel",
+        "body": [
+            "<mip-carousel width=\"$1\" height=\"$2\" ${3:autoplay}>",
+            "$4",
+            "</mip-carousel>$5"
+        ],
+        "description": "<mip-carousel> 多图轮播标签",
+        "scope": "text.html"
+    },
+    "mip-iframe": {
+        "prefix": "mip-iframe",
+        "body": [
+            "<mip-iframe src=\"$1\" width=\"$2\" height=\"$3\" ${4:allowfullscreen}>",
+            "$5",
+            "</mip-iframe>$6"
+        ],
+        "description": "<mip-iframe> 内联框架标签",
+        "scope": "text.html"
+    },
     "mip-img": {
         "prefix": "mip-img",
         "body": [
-            "<mip-img>",
-            "$1",
-            "</mip-img>"
+            "<mip-img src=\"$1\" width=\"$2\" height=\"$3\" alt=\"$4\" ${5:popup}>",
+            "$6",
+            "</mip-img>$7"
         ],
-        "description": "MIP HTML 中的 <mip-img> 标签",
+        "description": "<mip-img> 图片标签",
+        "scope": "text.html"
+    },
+    "mip-pix": {
+        "prefix": "mip-pix",
+        "body": [
+            "<mip-pix src=\"$1\"></mip-pix>$2"
+        ],
+        "description": "<mip-pix> 统计标签",
         "scope": "text.html"
     }
 }
