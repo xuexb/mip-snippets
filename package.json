@@ -1,0 +1,36 @@
+{
+  "name": "mip-snippets",
+  "displayName": "mip-snippets",
+  "description": "MIP HTML Snippets",
+  "version": "0.0.1",
+  "publisher": "xuexb",
+  "engines": {
+    "vscode": "^1.9.1"
+  },
+  "icon": "images/logo.png",
+  "categories": [
+    "Snippets"
+  ],
+  "galleryBanner": {
+    "color": "#1E81C1",
+    "theme": "light"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "html",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuexb/mip-snippets.git"
+  },
+  "author": "xuexb <fe.xiaowu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xuexb/mip-snippets/issues"
+  },
+  "homepage": "https://github.com/xuexb/mip-snippets#readme"
+}

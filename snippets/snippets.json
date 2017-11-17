@@ -1,0 +1,12 @@
+{
+    "mip-img": {
+        "prefix": "mip-img",
+        "body": [
+            "<mip-img>",
+            "$1",
+            "</mip-img>"
+        ],
+        "description": "MIP HTML 中的 <mip-img> 标签",
+        "scope": "text.html"
+    }
+}
