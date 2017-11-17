@@ -1,6 +1,6 @@
 # Change Log
 
-## 0.0.2
+## 0.0.3
 
 添加 [官网核心内置组件](https://www.mipengine.org/doc/3-widget/10-widgets.html) Snippets：
 

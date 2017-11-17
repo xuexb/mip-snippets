@@ -36,5 +36,15 @@
         ],
         "description": "<mip-pix> 统计标签",
         "scope": "text.html"
+    },
+    "mip-video": {
+        "prefix": "mip-video",
+        "body": [
+            "<mip-video src=\"$1\" poster=\"$2\"${3: controls}${4: autoplay}>",
+            "$5",
+            "</mip-video>$6"
+        ],
+        "description": "<mip-video> 视频标签",
+        "scope": "text.html"
     }
 }
