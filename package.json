@@ -2,7 +2,7 @@
   "name": "mip-snippets",
   "displayName": "MIP-Snippets",
   "description": "MIP HTML Snippets",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "xuexb",
   "engines": {
     "vscode": "^1.9.1"

@@ -2,6 +2,8 @@
 
 Visual Studio Code MIP HTML Snippets
 
+![preview](./images/preview.gif)
+
 ## List
 
 Snippet | MIP HTML Component
